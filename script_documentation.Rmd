@@ -1,0 +1,26 @@
+---
+title: "Script Documentation"
+author: "Your Name"
+date: "2026-10-30"
+output: html_document
+---
+
+# AI Assistance Declaration
+AI Assistance Declaration: I used Gemini for formatting layout suggestions and code block examples. Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples." I verified outputs using RStudio preview. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+This document explains the data cleaning and exploratory steps for our synthetic retail dataset script.
+
+## Inputs
+* **Dataset:** Synthetic retail transaction log (`sales_data_synthetic.csv`).
+* **Library:** `tidyverse` for data manipulation.
+
+## Outputs
+* Cleaned data frames ready for analysis.
+* Summary console outputs.
+
+```R
+# Sample R Code Chunk
+library(tidyverse)
+data <- read.csv("../data/sales_data_synthetic.csv")
+summary(data)
